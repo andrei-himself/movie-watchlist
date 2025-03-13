@@ -1,0 +1,196 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.display-none {
+    display: none;
+}
+
+nav {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ), url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 26%;
+    color: white;
+}
+
+h1 {
+    font-size: 2.675rem;
+    font-weight: extrabold;
+    letter-spacing: -4.5%;
+    margin-left: 6vw;
+}
+
+nav a {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-right: 6vw;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-bar-wrap {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+}
+
+.search-bar {
+    text-align: center;
+    position: relative;
+    bottom: 2.4vw;
+    font-size: 0.875rem;
+    font-weight: medium;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    width: 66vw;  
+    padding: 1.3vw 4vw;
+    background-color: white;
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+    background-position: 1.5% 50%;
+    background-size: 2vw;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px 0 0 6px;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    width: 22vw;
+    padding: 1.3vw 4vw;
+    background: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    border-radius: 0 6px 6px 0;
+}
+
+#movies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+.no-movies {
+    width: 100vw;
+    text-align: center;
+    margin-top: 28vw;
+}
+
+.no-movies h2 {
+    font-size: 1.125rem;
+    line-height: 20px;
+    font-weight: bold;
+    color: #DFDDDD;
+}
+
+.no-movies a {
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 3vw;
+}
+
+.no-movies a img {
+    width: 1.5rem;
+}
+
+.no-movies img {
+    width: 6rem;
+}
+
+.movie {
+    border-bottom: 1.5px solid #E5E7EB;
+    padding-bottom: 3vw;
+    margin-top: 3vw;
+    width: 88vw;
+    display: flex;
+    justify-content: start;
+    gap: 4vw;
+}
+
+.movie-poster {
+    width: 18vw;
+    height: 26.8vw;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.title h2 {
+    font-size: 1.125rem;
+    font-weight: medium;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 0.65vw;
+}
+
+.rating img {
+    width: 1.75vw;
+    height: auto;
+    border: none;
+}
+
+.details {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+}
+
+.details button {
+    width: 7.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background: none;
+    border: none;
+
+}
+
+.datils img {
+    width: 1rem;
+}
+
+.description {
+    font-size: 0.875rem;
+    color: #6B7280;
+    line-height: 20px;
+}
